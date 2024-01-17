@@ -1,0 +1,24 @@
+.MuiAutocomplete-root {
+    width: calc(100% - 270px);
+    border-right: 1px solid #f0f0f0;
+    font-size: 20px;
+}
+
+.Mui-focused label,
+.Mui-focused fieldset {
+    display: none;
+}
+
+.MuiInputBase-root fieldset {
+    border: none
+}
+
+.MuiFormControl-root label {
+    font-size: 20px;
+    padding-left: 16px;
+    line-height: 1.5rem;
+}
+
+.MuiInputBase-root {
+    padding: 9px 25px;
+}

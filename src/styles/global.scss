@@ -1,0 +1,620 @@
+.w-full {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mds-container {
+  margin-right: 32px;
+  margin-left: 32px;
+}
+
+.mds-divider {
+  border-top: 1px solid #f0f0f0;
+  margin: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+
+/* Responsive CSS Start */
+@media (max-width: 1440px) {
+  .mds-search-input {
+      padding: 16px 30px;
+  }
+
+  .mds-header-middle-wrapper {
+      max-width: 650px;
+  }
+
+  .mds-header-bottom-categroies {
+      padding: 24px;
+  }
+
+  .mds-header-bottom-right {
+      width: 240px;
+  }
+
+  .mds-header-bottom-middle {
+      width: calc(100% - 520px);
+  }
+
+  .mdc-button.mdc-button--raised.mds-btn-search {
+      padding: 20px 22px;
+      height: 50px;
+  }
+
+  .mds-right-details {
+      max-width: 240px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .mds-badge {
+      top: -8px;
+      width: 16px;
+      height: 16px;
+      right: -6px;
+      font-size: 10px;
+  }
+
+  .mds-header-bottom-categroies {
+      font-size: 18px;
+  }
+
+  .mds-header-bottom-middle .mds-header-menus-list .mds-header-menu a {
+      font-size: 13px;
+  }
+
+  .mds-header-bottom-left {
+      width: 268px;
+  }
+
+  .mds-header-bottom-middle .mds-header-menus-list .mds-header-menu {
+      margin: 0 16px;
+  }
+
+  .mds-product-details-footer .mdc-button {
+      padding: 22px 14px;
+      font-size: 14px;
+  }
+
+  .mds-product-quantity {
+      max-width: 140px;
+      margin-right: 20px;
+  }
+
+  .mds-product-quantity input {
+      font-size: 18px;
+  }
+
+  .mds-product-quantity button {
+      font-size: 20px;
+  }
+
+  .mds-size-single {
+      font-size: 14px;
+      padding: 14px 24px;
+  }
+
+  .mds-footer-tile {
+      font-size: 18px;
+  }
+
+  .mds-footer-col-first p {
+      font-size: 14px;
+      line-height: 26px;
+  }
+
+  .mds-footer-col-second ul,
+  .mds-footer-col-third p,
+  .mds-contact-details-wrapper .mds-location-details,
+  .mds-contact-details-wrapper .mds-phone-details {
+      font-size: 14px;
+  }
+
+  .mds-footer-col-first .mds-social-media-list img,
+  .mds-location-details img,
+  .mds-phone-details img {
+      width: 20px;
+  }
+}
+
+@media (min-width: 991px) {
+
+  .mds-search-wrapper,
+  .mds-profile-wrapper,
+  .mds-humburger-wrapper {
+      display: none;
+  }
+
+  .mds-wishlist-wrapper {
+      margin-right: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .mds-container {
+      margin-left: 15px;
+      margin-right: 15px;
+  }
+
+  .mds-header-row {
+      justify-content: space-between;
+      padding: 20px 0;
+  }
+
+  .logo-img {
+      width: 55px;
+  }
+
+  .mds-humburger-wrapper {
+      background: #e73c17;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 10px;
+  }
+
+  .mds-header-bottom,
+  .mds-all-categroies-data,
+  .mds-search-input,
+  .mds-loginRegister-details,
+  .mds-search-middle-details {
+      display: none;
+  }
+
+  .mds-search-wrapper img,
+  .mds-profile-wrapper img,
+  .mds-wishlist-wrapper img,
+  .mds-cart-wrapper img {
+      width: 20px;
+  }
+
+  .mds-products-left-section,
+  .mds-products-right-section,
+  .mds-products-thumbnail,
+  .mds-product-view-thumnail,
+  .mds-footer-col-first,
+  .mds-footer-col-second,
+  .mds-footer-col-third,
+  .mdc-tab-content,
+  .mds-footer-col-infodetails,
+  .mds-footer-col-accountdetails,
+  .mds-footer-col-storedetails {
+      width: 100%;
+      max-width: 100%;
+  }
+
+  .mds-products-thumbnail {
+      display: flex;
+      margin-top: 60px;
+  }
+
+  .mds-product-thumnail-lg {
+      margin-left: 0;
+  }
+
+  .mds-products-left-section {
+      flex-direction: column-reverse;
+  }
+
+  .mds-size-single {
+      padding: 12px 16px;
+      font-size: 12px;
+  }
+
+  .mds-product-quantity {
+      width: auto;
+      margin-right: 10px;
+  }
+
+  .mds-product-details-description {
+      padding: 0;
+  }
+
+  .mds-product-thumnail-single {
+      height: 75px;
+      margin-right: 10px;
+      overflow: hidden;
+  }
+
+  .mds-product-thumnail-single:last-of-type {
+      margin-right: 0px;
+  }
+
+  .mds-product-details-footer .mdc-button {
+      padding: 16px 8px;
+      font-size: 10px;
+      width: 96px;
+  }
+
+  .mds-product-quantity input {
+      width: 40px;
+      font-size: 16px;
+  }
+
+  .mds-product-details-footer .mdc-button--outlined {
+      margin-left: 8px;
+  }
+
+  .mds-product-quantity button {
+      font-size: 20px;
+      padding: 0 8px;
+      width: 36px;
+  }
+
+  .mds-product-thumnail-single:last-of-type {
+      margin-bottom: 20px;
+  }
+
+  .mds-product-thumnail-lg {
+      max-height: 100%;
+      padding: 0;
+  }
+
+  .mds-product-view-thumnail {
+      overflow: initial;
+  }
+
+  .mds-product-short-details {
+      margin-top: 20px;
+  }
+
+  .mds-product-name {
+      font-size: 24px;
+  }
+
+  .mds-product-short-details {
+      padding-left: 0;
+  }
+
+  .mds-products-details-wrapper {
+      margin-top: 30px;
+  }
+
+  .mdc-tab-content {
+      word-break: break-word;
+  }
+
+  .mdc-tab {
+      margin: 0 4px;
+      font-size: 14px;
+      padding: 0 4px;
+  }
+
+  .mdc-tab-bar {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  .mds-footer-col-second-wrapper {
+      flex-direction: column;
+  }
+
+  .mdc-tab-scroller__scroll-area {
+      border-bottom: 1px solid #d9d9d9;
+  }
+
+  .mds-footer-col-infodetails,
+  .mds-footer-col-accountdetails,
+  .mds-footer-col-storedetails,
+  .mds-footer-col-first {
+      margin-bottom: 50px;
+  }
+
+  .mds-footer-links-wrapper {
+      padding: 40px 16px;
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 440px) {
+  .mds-divider {
+      margin: 12px 0;
+  }
+
+  .mds-container-bottom {
+      padding-top: 5px;
+      padding-bottom: 35px;
+  }
+
+  .mds-search-wrapper img,
+  .mds-profile-wrapper img,
+  .mds-wishlist-wrapper img,
+  .mds-cart-wrapper img {
+      width: 16px;
+  }
+
+  .mds-products-thumbnail {
+      position: relative;
+  }
+
+  .mds-arrow-left-icon,
+  .mds-arrow-right-icon {
+      z-index: 1;
+      width: 16px;
+      height: 16px;
+      background-color: #ccc;
+      position: absolute;
+      top: 45%;
+      transform: translatey(-50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .mds-arrow-left-icon {
+      left: -8px;
+  }
+
+  .mds-arrow-right-icon {
+      right: 4px;
+      background: #e73c17;
+  }
+
+  .mds-banner-wrapper .mds-banner-title {
+      font-size: 16px;
+  }
+
+  .mds-banner-breadcrumb {
+      font-size: 10px;
+  }
+
+  .mds-banner-wrapper {
+      height: 93px;
+  }
+
+  .mds-product-short-details {
+      font-size: 8px;
+  }
+
+  .mds-brand,
+  .mds-model,
+  .mds-availability {
+      font-size: 10px;
+      margin-bottom: 6px;
+  }
+
+  .mds-product-name {
+      font-size: 15px;
+  }
+
+  .mds-rating .material-icons {
+      font-size: 12px;
+  }
+
+  .mds-description-list-unstyled {
+      padding-left: 12px;
+      font-size: 10px;
+  }
+
+  .mds-size-single {
+      padding: 7px 13px;
+      font-size: 9px;
+  }
+
+  .mds-tex-title {
+      font-size: 9px;
+  }
+
+  .mds-current-price {
+      font-size: 15px;
+  }
+
+  .mds-current-price.mds-price-cutoff {
+      font-size: 12px;
+  }
+
+  .mds-product-details-footer .mdc-button {
+      font-size: 10px;
+      padding: 11px 8px;
+  }
+
+  .mds-product-quantity input {
+      font-size: 12px;
+      width: 35px;
+      padding: 11px 0;
+  }
+
+  .mds-product-quantity button {
+      font-size: 16px;
+      width: 30px;
+  }
+
+  .mdc-tab {
+      font-size: 12px;
+  }
+
+  .mdc-tab__content {
+      height: 48px;
+  }
+
+  .MuiTabPanel-root.mdc-tab-content {
+      word-break: break-word;
+      font-size: 12px;
+      line-height: 16px;
+      padding: 16px 0;
+  }
+
+  .MuiButtonBase-root.mdc-tab {
+      font-size: 16px;
+      margin: 0 5px;
+  }
+
+  .carousel.carousel-slider {
+      height: 241px;
+  }
+
+  .carousel .slide img {
+      height: 150px;
+  }
+
+  .carousel .thumbs-wrapper {
+      margin: 20px 0;
+  }
+
+  .carousel .thumbs {
+      display: flex;
+      padding: 0;
+  }
+
+  .carousel .thumb {
+      width: 60px;
+      height: 75px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .mds-footer-tile {
+      font-size: 12px;
+      margin-bottom: 12px;
+  }
+
+  .mds-footer-col-first p {
+      line-height: 10px;
+      font-size: 10px;
+      margin-bottom: 10px;
+  }
+
+  .mds-footer-col-first .mds-social-media-list img,
+  .mds-location-details img,
+  .mds-phone-details img {
+      width: 14px;
+  }
+
+  .mds-footer-col-infodetails,
+  .mds-footer-col-accountdetails,
+  .mds-footer-col-storedetails,
+  .mds-footer-col-first {
+      margin-bottom: 20px;
+  }
+
+  .mds-footer-col-second ul,
+  .mds-footer-col-third p,
+  .mds-contact-details-wrapper .mds-location-details,
+  .mds-contact-details-wrapper .mds-phone-details {
+      font-size: 10px;
+      line-height: initial;
+  }
+
+  .mds-contact-details-wrapper .mds-location-details span,
+  .mds-contact-details-wrapper .mds-phone-details span {
+      margin-left: 5px;
+  }
+
+  .mds-footer-links-wrapper {
+      padding: 20px 16px;
+      padding-bottom: 0;
+  }
+
+  .mds-payment-list-wrapper img {
+      width: 30px;
+  }
+
+  .mds-copyright-text {
+      font-size: 10px;
+  }
+}
+
+@media (max-width: 324px) {
+  .mds-banner-wrapper .mds-banner-title {
+      font-size: 14px;
+  }
+
+  .mds-banner-breadcrumb {
+      font-size: 10px;
+  }
+
+  .mds-product-short-details {
+      font-size: 6px;
+  }
+
+  .mds-brand,
+  .mds-model,
+  .mds-availability {
+      font-size: 8px;
+  }
+
+  .mds-product-name {
+      font-size: 13px;
+  }
+
+  .mds-rating .material-icons {
+      font-size: 10px;
+  }
+
+  .mds-description-list-unstyled {
+      font-size: 8px;
+  }
+
+  .mds-size-single {
+      font-size: 7px;
+  }
+
+  .mds-tex-title {
+      font-size: 7px;
+  }
+
+  .mds-current-price {
+      font-size: 13px;
+  }
+
+  .mds-current-price.mds-price-cutoff {
+      font-size: 10px;
+  }
+
+  .mds-product-details-footer .mdc-button {
+      font-size: 8px;
+  }
+
+  .mds-product-quantity input {
+      font-size: 10px;
+  }
+
+  .mds-product-quantity button {
+      font-size: 14px;
+  }
+
+  .mdc-tab {
+      font-size: 10px;
+  }
+
+  .mdc-tab-content {
+      font-size: 10px;
+  }
+
+  .mds-footer-tile {
+      font-size: 10px;
+  }
+
+  .mds-footer-col-first p {
+      font-size: 8px;
+  }
+
+  .mds-footer-col-second ul,
+  .mds-footer-col-third p,
+  .mds-contact-details-wrapper .mds-location-details,
+  .mds-contact-details-wrapper .mds-phone-details {
+      font-size: 8px;
+  }
+
+  .mds-copyright-text {
+      font-size: 8px;
+  }
+}
+
+/* Responsive CSS End */

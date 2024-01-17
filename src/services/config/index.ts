@@ -1,0 +1,3 @@
+export {
+  getProductReqObj
+} from './productApiEndPoints';

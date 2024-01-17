@@ -1,0 +1,50 @@
+.mds-tabs-container {
+    width: 100%;
+    margin-top: 60px;
+    position: relative;
+    display: flex;
+}
+
+.MuiButtonBase-root.mdc-tab {
+    flex: initial !important;
+    font-size: 24px;
+    text-transform: capitalize;
+    margin: 0 40px;
+    padding: 16px 0;
+}
+
+.mdc-tab-bar {
+    width: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.mdc-tab-scroller__scroll-area {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.mdc-tab-scroller__scroll-content {
+    justify-content: center;
+}
+
+.mdc-tab .mdc-tab__text-label {
+    color: #191919;
+}
+
+.mdc-tab.mdc-tab--active {
+    border-bottom: 2px solid #e73c17;
+    padding: 0;
+}
+
+.mdc-tab-content {
+    max-width: 1002px;
+    width: 100%;
+    margin: auto;
+    padding: 32px 0;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.mdc-tab__content {
+    height: 30px;
+}

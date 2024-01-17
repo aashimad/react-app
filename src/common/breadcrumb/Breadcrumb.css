@@ -1,0 +1,21 @@
+.mds-banner-wrapper {
+    background: #f4f5f8;
+    height: 256px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mds-banner-wrapper .mds-banner-title {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.mds-banner-breadcrumb {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
